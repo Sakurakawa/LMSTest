@@ -1,0 +1,18 @@
+.header {
+  background-color: #222222;
+  height: 48px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.header-width {
+  width: 900px;
+  margin-left: 228px;
+  margin-right: 228px;
+}
+.logo {
+  background: url(./source/logo.png) no-repeat;
+  width: 350px;
+  height: 47px;
+  float: left;
+}

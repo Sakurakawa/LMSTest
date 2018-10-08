@@ -1,0 +1,68 @@
+.footer {
+  height: 127px;
+  clear: both;
+  background-color: #e6e6e6;
+}
+.footer-contain {
+  width: 900px;
+  height: 127px;
+  margin-left: 16.5%;
+  margin-right: 16.5%;
+}
+.footer-word {
+  float: left;
+  height: 83px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+.footer-word p {
+  font-size: 9pt;
+  color: #9aa3a0;
+}
+.footer-word a {
+  text-decoration: none;
+  font-size: 9pt;
+  color: #9aa3a0;
+}
+.footer-word a:hover {
+  text-decoration: underline;
+}
+.qrCode {
+  float: right;
+  width: 360px;
+  height: 140px;
+}
+.pic-left {
+  height: 125px;
+  width: 140px;
+  float: left;
+  padding-top: 10px;
+}
+.pic-right {
+  height: 125px;
+  width: 140px;
+  float: right;
+  padding-top: 10px;
+}
+.pic-left a {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 50px;
+}
+.pic-left img {
+  width: 80px;
+  height: 80px;
+  margin-left: 50px;
+}
+.pic-right a {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #000000;
+  margin-left: 60px;
+}
+.pic-right img {
+  width: 80px;
+  height: 80px;
+  margin-left: 60px;
+}

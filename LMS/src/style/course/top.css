@@ -1,0 +1,19 @@
+.divtop {
+  background-color: #fff;
+  border: 1px solid #e0dbc3;
+  height: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.divtop ul {
+  margin: 0;
+  padding: 0;
+}
+.divtop li {
+  line-height: 50px;
+  padding: 0 20px;
+  float: left;
+  list-style: none;
+}

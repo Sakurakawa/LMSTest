@@ -1,0 +1,278 @@
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.clear {
+  clear:both;
+}
+
+body, div, p, select, input, h2, h1, h3, h4, table, tbody, tr, td {
+    margin: 0;
+    padding: 0;
+}
+
+.play_l {
+    background-color: #000;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.play_l .play_l_inner {
+    margin-right: 320px;
+    height: 100%;
+}
+
+
+.play_l .nv {
+    width: 100%;
+    height: 60px;
+    background-color: #14191e;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.play_l .nv .nv-item {
+    float: left;
+}
+
+.play_l .nv .nv-item a {
+    color: #b5b9bc;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+}
+
+.play_l .nv .btn_l {
+    width: 60px;
+    font-size: 25px;
+    font-weight: 1000;
+}
+
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.play_l .nv .title {
+    padding-left: 20px;
+}
+
+.play_r {
+    float: left;
+    width: 315px;
+    height: 100%;
+    margin-left: -315px;
+    overflow: hidden;
+    position: relative;
+}
+
+.play_r .r_tab {
+    background-color: #343f4d;
+}
+
+.play_r .r_tab .li_act {
+    background: #455466;
+    border-bottom: 2px solid #e0842d;
+}
+
+.play_r .r_tab li {
+    background-color: #343f4d;
+    float: left;
+    width: 25%;
+    height: 36px;
+    line-height: 36px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.play_r .r_tab li a {
+    color: #bcd6ce;
+    font-size: 14px;
+}
+
+img {
+    border: 0;
+}
+
+.persection .chaper, .persection .chaper_a, .persection .chaper1, .persection .chaper1:hover {
+    line-height: 48px;
+    height: 48px;
+    color: #717a86;
+    font-size: 14px;
+    padding: 0 14px 0 8px;
+    position: relative;
+}
+
+.persection .chaper .num, .persection .chaper_a .num, .persection .chaper1 .num {
+    background: url(../../../source/icon_section.png) no-repeat;
+    height: 27px;
+    width: 27px;
+    line-height: 27px;
+    margin: 10px 0;
+    text-align: center;
+    color: #767f8a;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.persection .chaper span, .persection .chaper_a span, .persection .chaper1 span, .persection .chaper1:hover span {
+    display: inline-block;
+    float: left;
+}
+
+.persection .chaper .chapertitle, .persection .chaper_a .chapertitle, .persection .chaper1 .chapertitle {
+    height: 42px;
+    color: #343f4d;
+    white-space: normal;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display: block;
+    position: absolute;
+    left: 68px;
+    right: 168px;
+}
+
+.play_r .r_menu .chapertext {
+    max-width: 50% !important;
+    width: 50%;
+    margin-left: 3em;
+}
+
+.play_r .r_menu {
+    display: block;
+    display: block;
+    overflow-y: auto;
+    margin-top: 3px;
+    background: #fff;
+}
+
+.persection .chaper .chapertext, .persection .chaper_a .chapertext, .persection .chaper1 .chapertext {
+    max-width: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.play_r .r_menu .sectionarea, .play_r .r_menu .persection .sectionarea_a, .persection .play_r .r_menu .sectionarea_a, .play_r .r_menu .persection .sectionarea_b, .persection .play_r .r_menu .sectionarea_b {
+    margin-left: -20px;
+}
+
+.persection .sectionarea .section:last-of-type, .persection .sectionarea_a .section:last-of-type, .persection .sectionarea_b .section:last-of-type {
+    background: url(../../../source/icon1.png) no-repeat;
+    background-position: 47px -30px !important;
+}
+
+.persection .sectionarea .section, .persection .sectionarea_a .section, .persection .sectionarea_b .section {
+    color: #343f4d;
+    font-size: 14px;
+    background: url(../../../source/icon1.png) repeat-y;
+    background-position: 47px 0;
+    padding: 0 28px 0 34px;
+    position: relative;
+}
+
+.persection .sectionarea .section .s_doing, .persection .sectionarea_a .section .s_doing, .persection .sectionarea_b .section .s_doing {
+    background: url(../../../source/icon_doing.png) no-repeat;
+    margin: 10px 3px;
+}
+
+.persection .sectionarea .section .s_icon, .persection .sectionarea_a .section .s_icon, .persection .sectionarea_b .section .s_icon {
+    width: 21px;
+    height: 21px;
+}
+
+.persection .sectionarea .section span, .persection .sectionarea_a .section span, .persection .sectionarea_b .section span {
+    display: inline-block;
+    float: left;
+    line-height: 42px;
+}
+
+.play_r .r_menu .s_text {
+    *max-width: 100px !important;
+    max-width: 50% !important;
+    width: 50%;
+    margin-left: 1em;
+}
+
+.persection .sectionarea .section .s_play, .persection .sectionarea_a .section .s_play, .persection .sectionarea_b .section .s_play {
+    background: url(../../../source/play.png) no-repeat center;
+    margin: 11px 0 0 20px;
+    float: right;
+    width: 18px;
+    height: 18px;
+}
+
+.play_l .nv .center.resource_tabSelect {
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.play_l .nv .center.resource_tabSelect li.active {
+    background: #24292e;
+    border-bottom: 2px solid #e0842d;
+}
+
+.play_l .nv .center.resource_tabSelect li {
+    display: inline-block;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.play_l .nv .center.resource_tabSelect li a {
+    display: block;
+    line-height: 60px;
+    padding: 0 20px;
+    color: #b5b9bc;
+    font-size: 14px;
+}
+
+.player {
+  width: 90%;
+  height:80%;
+  background: #000;
+  margin: 20px 50px 20px auto;
+}
+
+.main .main_container .video-react-big-play-button {
+  left:50%;
+  top:50%;
+  margin-left: -20px;
+}
+
+.section .s_right a {
+  height: 100%;
+  width: 100%;
+  display:inline-block;
+  float:right;
+}
+
+.nv-item a:hover{
+  text-decoration: none;
+    background-color: #363c40;
+    color: #fff;
+}

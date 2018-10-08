@@ -1,0 +1,49 @@
+.newheader {
+  background-color: #c91c1d;
+  height: 48px;
+  width: 100%;
+  color: #ffffff;
+}
+.header-area {
+  margin-left: 7%;
+  margin-right: 7%;
+  height: 48px;
+  position: relative;
+}
+.mainMenu {
+  float: left;
+}
+.mainMenu li {
+  margin: 0;
+  display: block;
+  height: 48px;
+  text-align: center;
+  line-height: 46px;
+  padding: 0 15px;
+  float: left;
+}
+.logo2 {
+  background: url(../source/logo2.png) no-repeat;
+  width: 300px;
+  height: 47px;
+  float: left;
+  margin-top: 5px;
+}
+.logReg {
+  float: right;
+  width: 160px;
+  line-height: 46px;
+}
+.teacher-info {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+.teacher-info a {
+  color: #ffffff;
+}
+.teacher-info span {
+  color: #bcd6ce;
+  margin: 0 10px;
+  font-style: normal;
+}

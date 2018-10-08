@@ -1,0 +1,80 @@
+.main-style {
+  width: 100%;
+  min-width: 900px;
+  min-height: 480px;
+  position: relative;
+  background: #eeeeee;
+}
+.main-box {
+  width: 900px;
+  height: 370px;
+  position: absolute;
+  top: 50%;
+  margin-top: -185px;
+  left: 50%;
+  margin-left: -450px;
+}
+.main-detail {
+  float: left;
+  width: 360px;
+  height: 368px;
+  border: 1px solid #e0dbc3;
+  background: #ffffff;
+}
+.main-detail-bg {
+  background: url(../source/loginWrap.jpg);
+  width: 537px;
+  float: left;
+  height: 370px;
+}
+
+.h3-style {
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: normal;
+  color: #343f4d;
+}
+.login {
+  font-size: 14px;
+  height: 190px;
+}
+.login-user {
+  background: url(../source/login_user_03.jpg) no-repeat;
+  text-indent: 35px;
+  background-position: left 20px top 10px;
+}
+.login-lock {
+  background: url(../source/login_lock_03.jpg) no-repeat;
+  text-indent: 35px;
+  background-position: left 20px top 10px;
+}
+.login input {
+  margin-bottom: 20px;
+  border: 1px #999999 solid;
+  border-radius: 5px;
+  width: 80%;
+  height: 35px;
+  padding-left: 5px;
+  margin-left: 9%;
+}
+.login-button {
+  background-color: #e0842d;
+  font-size: 14pt;
+  color: #eeeeee;
+}
+.down-style {
+  height: 64px;
+  line-height: 64px;
+  padding-left: 30px;
+  background-color: #f4f2ea;
+  margin-top: 41px;
+  font-size: 14px;
+  color: #989896;
+}
+.down-style a {
+  text-decoration: none;
+  color: #000000;
+  padding-left: 1px;
+  padding-right: 1px;
+}

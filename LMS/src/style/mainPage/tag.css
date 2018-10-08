@@ -1,0 +1,42 @@
+.list-area {
+  height: 70px;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.list-area-left {
+  float: left;
+}
+.list-area-left ul {
+  margin: 0;
+  padding: 0;
+}
+.list-area-left ul li {
+  float: left;
+  font-size: 11pt;
+  list-style: none;
+  padding-right: 15px;
+  padding-left: 55px;
+  margin-left: -40px;
+  margin-top: 20px;
+  border-right: 1px solid #674848;
+}
+.list-area-left ul li:hover {
+  color: blue;
+}
+.list-area-right {
+  float: right;
+}
+.list-area-right ul {
+  margin: 0;
+  padding: 0;
+}
+.list-area-right ul li {
+  float: left;
+  font-size: 11pt;
+  padding: 5 10px;
+  padding: 5px 10px;
+  margin-top: 15px;
+  padding-top: 5px;
+  list-style: none;
+  border: 1px solid #674848;
+}

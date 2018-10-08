@@ -1,0 +1,69 @@
+.background {
+  height: 128px;
+  width: 100%;
+  background: url(../../source/infobg.jpg);
+}
+.allmargin {
+  margin-left: 6%;
+  margin-right: 6%;
+  position: relative;
+}
+.content-left {
+  float: left;
+  height: 128px;
+  width: 40%;
+  color: #eeeeee;
+  position: absolute;
+  left: 2%;
+}
+.content-left img {
+  display: inline-block;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 24px;
+  width: 75px;
+  height: 75px;
+}
+.content-left h1 {
+  position: absolute;
+  top: 32px;
+  left: 114px;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.content-left p {
+  display: inline;
+  font-size: 14px;
+  font-family: 'Microsoft YaHei', 'Arial';
+  position: absolute;
+  top: 60px;
+  left: 114px;
+}
+.content-right {
+  float: right;
+  width: 156px;
+  height: 45px;
+  background: #c91c1d;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute;
+  right: 30px;
+  top: 41px;
+}
+.content-right input {
+  color: #fff;
+  font: 18px/45px 'Microsoft YaHei', 'Arial';
+  font-size: 16px;
+  border: 0;
+  background: none;
+}
+.course-info {
+  float: right;
+  width: 66%;
+  height: 205px;
+}
+.course-info p {
+  color: #717a86;
+  font-size: 10pt;
+}

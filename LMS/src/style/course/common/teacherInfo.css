@@ -1,0 +1,60 @@
+.teacher {
+  width: 24%;
+  float: right;
+}
+.teacher-detail {
+  border: 1px solid #e0dbc3;
+}
+.teacher-top {
+  background-color: #fff;
+  height: 50px;
+  overflow: hidden;
+  border-bottom: 1px solid #e0dbc3;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.teacher-top h3 {
+  margin-top: 10px;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+.teacher-list {
+  background: #fff;
+  padding-left: 10px;
+}
+.teacher-list ul {
+  margin: 0;
+  padding: 0;
+}
+.teacher-list li {
+  margin: 10px 0;
+  height: 76px;
+  list-style: none;
+}
+.teacher-list p {
+  padding-top: 10px;
+  line-height: 0px;
+}
+.teacher-list span {
+  background: #717a86;
+  font-size: 9pt;
+  margin-left: 5px;
+  color: #eeeeee;
+}
+.judge-detail {
+  border: 1px solid #e0dbc3;
+  margin-top: 10px;
+}
+.img-bg {
+  display: block;
+  width: 76px;
+  height: 76px;
+  margin-right: 16px;
+  float: left;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
